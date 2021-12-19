@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>RegistrationPage</title>
+<style> 
+ body{font-family: cursive; background-color: #ffefd5}
+ div{width:400px; margin: 0px auto; boxshadow: 0px 1px 10p #a8a8a8; background-color: #fff;padding-bottom: 10px;border-radius: 10px;}
+ h1{background-color: #008080; text -align:center; margin-top: 0; padding: 20px; color: #fff} 
+ input{display: block; margin: auto; font-size: 20px} 
+p{text-align: center;font-size: 20px;color:# 82a28a;margin; 0} 
+input{width:70%; border: 1px solid#34cbd1;background-color: #fff;outline: none;borderradius: 5px;height: 40px;padding: 10px}
+input[type="submit"]:hover{background-color: #54b0bc;border :0}
+input[type="submit"]{background-color :#34cbd1;color: #fff;cursor: pointer}
+ a{padding: 5px;border-radius: 3px; background-color: #c0eb30; text -decoration: none; display: inlineblock; color: #000;}
+ a:hover{color: #fff; background-color: #4cce56; transition: all 0.3s}
+</style>
+</head>
+<body>
+  <div>
+    <h1>Register</h1>
+      <form action="http://localhost:8080/PROJECT/register.jsp" method="post">
+      <p>Enter your Name</p>
+      <input type="text" name="name" id="name">
+      <p>Enter your Account No</p>
+      <input type="text" name="account" id="account">
+      <p>Enter your email</p>
+      <input type="text" name="email" id="email">
+      <p>Enter your password</p>
+      <input type= "password" name="pass" id="pass">
+      <p>Enter your Amount</p>
+      <input type="text" name="amount" id="amount"><br>
+ <input type="submit" value="Register">
+      <p ><a href="index.html">Home</a></p>
+</form>
+</div>
+</body>
+</html>
